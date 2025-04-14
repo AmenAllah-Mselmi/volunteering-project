@@ -48,7 +48,7 @@ export default function ProductCreateForm() {
         description: `Le produit "${values.name}" a été ajouté à votre inventaire.`,
         action: {
           label: "Voir",
-          onClick: () => router.push("/produits")
+          onClick: () => router.push("/admin/product")
         },
       })
 
@@ -147,7 +147,7 @@ export default function ProductCreateForm() {
                 <Button 
                   type="button" 
                   variant="outline" 
-                  onClick={() => router.push("/produits")}
+                  onClick={() => router.push("/admin/product")}
                 >
                   Annuler
                 </Button>
