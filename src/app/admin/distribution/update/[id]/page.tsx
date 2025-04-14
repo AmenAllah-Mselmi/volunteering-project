@@ -217,7 +217,7 @@ export default function UpdateDistributionPage() {
   }
 
   return (
-    <div className="container py-10 flex flex-col items-center">
+    <div className="container py-10 flex flex-col items-center w-screen">
       <h1 className="text-2xl font-bold mb-6">Modifier Distribution</h1>
       
       <Card className="w-full max-w-4xl">

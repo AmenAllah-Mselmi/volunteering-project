@@ -197,10 +197,10 @@ export default function CreateDistributionPage() {
   }
 
   return (
-    <div className="container py-10 flex flex-col items-center">
+    <div className="container py-10 flex flex-col items-center w-screen">
       <h1 className="text-2xl font-bold mb-6">Nouvelle Distribution</h1>
       
-      <Card className="w-full max-w-4xl">
+      <Card className=" max-w-4xl w-9/12">
         <CardHeader>
           <CardTitle>Créer une distribution</CardTitle>
           <CardDescription>
